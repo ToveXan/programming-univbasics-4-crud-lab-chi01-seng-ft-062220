@@ -46,6 +46,7 @@ def retrieve_element_from_index(array, index_number)
   return array[index_number]
 end
 retrieve_element_from_index(retrieve_arrayarray, i_number)
+
 def retrieve_first_element_from_array(array)
   
 end
