@@ -38,11 +38,12 @@ def remove_element_from_start_of_array(array)
   new_arr = array.shift
   new_arr
 end
-
 remove_element_from_start_of_array(array_remove_start)
 
+array = ["wow", "I", "am", "really", "learning", "arrays!"]
+index_number = 2
 def retrieve_element_from_index(array, index_number)
-  
+  return array[index_number]
 end
 
 def retrieve_first_element_from_array(array)
