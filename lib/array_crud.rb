@@ -47,9 +47,11 @@ def retrieve_element_from_index(array, index_number)
 end
 retrieve_element_from_index(retrieve_arrayarray, i_number)
 
+first_array = ["wow", "I", "am", "really", "learning", "arrays!"]
 def retrieve_first_element_from_array(array)
-  
+  return array[0]
 end
+retrieve_first_element_from_array(first_array)
 
 def retrieve_last_element_from_array(array)
   
