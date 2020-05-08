@@ -43,18 +43,18 @@ remove_element_from_start_of_array(array_remove_start)
 retrieve_array = ["wow", "I", "am", "really", "learning", "arrays!"]
 i_number = 2
 def retrieve_element_from_index(array, index_number)
-  return array[index_number]
+  array[index_number]
 end
 retrieve_element_from_index(retrieve_arrayarray, i_number)
 
 element_array = ["wow", "I", "am", "really", "learning", "arrays!"]
 def retrieve_first_element_from_array(array)
-  return array[0]
+  array[0]
 end
 retrieve_first_element_from_array(element_array)
 
 def retrieve_last_element_from_array(array)
-  return array[-1]
+  array[-1]
 end
 retrieve_last_element_from_array(element_array)
 
@@ -62,7 +62,7 @@ update_array = ["wow", "I", "am", "really", "learning", "arrays!"]
 update_number = 4
 def update_element_from_index(array, index_number, element)
   array[index_number] = element
-  return array
+  array
 end
 
 update_element_from_index(update_array, update_number, "totally")
